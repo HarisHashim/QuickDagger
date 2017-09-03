@@ -1,11 +1,12 @@
 package my.devs.apps.testing.quickdagger;
 
 import javax.inject.Inject;
+import javax.inject.Singleton;
 
 /**
  * Created by harishashim on 8/12/2017.
  */
-
+@Singleton
 public class TestService {
 
     private TestUser user;

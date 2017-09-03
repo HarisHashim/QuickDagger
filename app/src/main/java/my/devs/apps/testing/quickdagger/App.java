@@ -31,6 +31,10 @@ public class App extends Application implements HasActivityInjector {
     public abstract class AppModule {
         @ContributesAndroidInjector
         abstract MainActivity mainActivity();
+
+        @ContributesAndroidInjector
+        abstract EditActivity editActivity();
+
     }
 }
 
